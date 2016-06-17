@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AnimateSplash: 282882fe6e2ae354d75b40c0c0ad183635ccb005
+  AnimateSplash: eef4fca9add03fb6c2e3636c01b771fa6b7f53f1
   FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
 
 PODFILE CHECKSUM: 362e091af80949faeb3a170e1359d786e398fa86

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of AnimateSplash.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AnimateSplash",
+  "homepage": "https://github.com/Majharul-Huq/AnimateSplash",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Majharul-Huq": "sumancsc@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AnimateSplash.git",
+    "git": "https://github.com/Majharul-Huq/AnimateSplash.git",
     "tag": "0.1.0"
   },
   "platforms": {
