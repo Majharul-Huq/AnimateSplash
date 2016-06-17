@@ -7,6 +7,7 @@
 //
 
 #import "SM_ViewController.h"
+#import "SplashScreenView.h"
 
 @interface SM_ViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    SplashScreenView *splashScreenView = [[SplashScreenView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:splashScreenView];
+    
+    splashScreenView.animationStartBlock = ^void(){
+        NSLog(@"Animation Started......");
+    };
+    splashScreenView.animationCompletedBlock = ^void(){
+        NSLog(@"Animation Completed......");
+    };
 }
 
 - (void)didReceiveMemoryWarning

@@ -23,6 +23,11 @@
 		772E54291119B7E349ABFD38 /* Pods_AnimateSplash_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F0FFCC7D74710D93DD77D6 /* Pods_AnimateSplash_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A3E0360399E2A45997E36C1B /* Pods_AnimateSplash_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7018FE66D84B097CBCB62F39 /* Pods_AnimateSplash_Tests.framework */; };
+		C5BD48481D13E501004FC4B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BD48431D13E501004FC4B2 /* Default-568h@2x.png */; };
+		C5BD48491D13E501004FC4B2 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BD48441D13E501004FC4B2 /* Default-667h@2x.png */; };
+		C5BD484A1D13E501004FC4B2 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BD48451D13E501004FC4B2 /* Default-736h@3x.png */; };
+		C5BD484B1D13E501004FC4B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BD48461D13E501004FC4B2 /* Default.png */; };
+		C5BD484C1D13E501004FC4B2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BD48471D13E501004FC4B2 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B004F646909510F4BB341F1B /* AnimateSplash.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnimateSplash.podspec; path = ../AnimateSplash.podspec; sourceTree = "<group>"; };
 		B521C6C297586A1DF3D4C255 /* Pods-AnimateSplash_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimateSplash_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimateSplash_Example/Pods-AnimateSplash_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C5BD48431D13E501004FC4B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C5BD48441D13E501004FC4B2 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		C5BD48451D13E501004FC4B2 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		C5BD48461D13E501004FC4B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C5BD48471D13E501004FC4B2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E836957C472F42A5443C6915 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +155,11 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5BD48431D13E501004FC4B2 /* Default-568h@2x.png */,
+				C5BD48441D13E501004FC4B2 /* Default-667h@2x.png */,
+				C5BD48451D13E501004FC4B2 /* Default-736h@3x.png */,
+				C5BD48461D13E501004FC4B2 /* Default.png */,
+				C5BD48471D13E501004FC4B2 /* Default@2x.png */,
 				6003F595195388D20070C39A /* AnimateSplash-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -276,9 +291,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BD484C1D13E501004FC4B2 /* Default@2x.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				C5BD48481D13E501004FC4B2 /* Default-568h@2x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				C5BD484B1D13E501004FC4B2 /* Default.png in Resources */,
+				C5BD48491D13E501004FC4B2 /* Default-667h@2x.png in Resources */,
+				C5BD484A1D13E501004FC4B2 /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

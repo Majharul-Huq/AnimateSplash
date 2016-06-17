@@ -1,0 +1,23 @@
+PODS:
+  - AnimateSplash (0.1.0)
+  - FBSnapshotTestCase (2.1.1):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
+  - FBSnapshotTestCase/Core (2.1.1)
+  - FBSnapshotTestCase/SwiftSupport (2.1.1):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - AnimateSplash (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  AnimateSplash:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AnimateSplash: 282882fe6e2ae354d75b40c0c0ad183635ccb005
+  FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
+
+PODFILE CHECKSUM: 362e091af80949faeb3a170e1359d786e398fa86
+
+COCOAPODS: 1.0.1
